@@ -54,7 +54,7 @@ class Send_notif
 	function send_fcm($data_fcm=array(), $notif_fcm=array(), $target){
 		$url = 'https://fcm.googleapis.com/fcm/send';
 		
-		$server_key = 'AIzaSyCNK-xpPLNR67fWAoLnzGrE_orZVSO9ptM';
+		$server_key = '';
 					
 		$fields = array();
 		
